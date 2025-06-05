@@ -1,5 +1,8 @@
 # Obwob
 **Real-time feedback collection that captures insights before they slip away**
+**Creator and Lead Developer: Laura Gates**
+**Currently in development at Bath Spa University as part of ongoing research into inclusive feedback collection methods.**
+
 
 [![Status](https://img.shields.io/badge/status-active%20development-green)]()
 [![Tech Stack](https://img.shields.io/badge/stack-React%20%7C%20Django%20%7C%20PostgreSQL-blue)]()
