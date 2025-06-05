@@ -1,9 +1,12 @@
 # obwob-product
 Real-time feedback collection platform - product documentation, technical architecture, and development strategy.
 
+
 # Overview
 Obwob transforms traditionally fleeting, difficult-to-capture feedback into valuable, structured data that supports impact reports, research and funding bids without the administrative overhead of traditional methods.
+
 Built as a mobile-first Progressive Web App, Obwob enables facilitators to instantly connect with participants during events and gather their responses in real-time through participants' own mobile phones—with no downloads, logins, or technical barriers.
+
 
 # The Problem We're Solving
 Traditional feedback collection fails in live environments:
@@ -13,6 +16,7 @@ Traditional feedback collection fails in live environments:
 - Valuable insights are lost in the moment they occur
 
 Obwob emerged from research with vulnerable populations (refugees, low-income communities) where smartphones were consistently the most accessible technology, despite various other barriers.
+
 
 # Key Technical Achievements
 Sophisticated Resource Hierarchy Management
@@ -29,20 +33,22 @@ AI Integration Planning
 
 Frictionless User Experience
 - QR code-based access system that creates anonymous users with UUIDs, enabling immediate participation without downloads or account creation.
-Current Development Status
 
-# Working Demo Features:
+
+# Current Development Status
+Working Demo Features:
 - Complete facilitator and participant event access via QR codes
 - Live question broadcasting and response submission
 - Asynchronous question answering capabilities
 - Welcome and confirmation user flows
 - Full backend API with comprehensive test coverage
 
-# In Development (Django Migration):
+In Development (Django Migration):
 - Organization event dashboard and question bank management
 - Real-time response viewing for facilitators
 - Advanced analytics and export functionality
 - Multi-language support and voice/image submissions
+
 
 # Technical Architecture
 Backend
@@ -70,6 +76,7 @@ Deployment
 - Monitoring: Application performance tracking
 - Scaling: Designed for horizontal scaling with database optimisation
 
+
 # AI Integration Roadmap
 MVP-Ready Features
 - Smart Response Summarisation: LLM-generated summaries of participant feedback
@@ -82,19 +89,22 @@ Facilitator Copilot: Real-time insights and suggestions during events
 Adaptive Follow-ups: Context-aware question recommendations
 Voice Transcription: Whisper integration for audio responses
 
+
 # Target Markets
-- Higher Education: Research impact evidence collection and academic event feedback
-- Healthcare: Training evaluation and professional development assessment
-- Arts Organizations: Community engagement documentation for funding applications
-- Community Organizations: Program effectiveness measurement and participant voice capture
-- Museum & heritage sites
-- Additional market research in progress 2025-26
+Higher Education: Research impact evidence collection and academic event feedback
+Healthcare: Training evaluation and professional development assessment
+Arts Organizations: Community engagement documentation for funding applications
+Community Organizations: Program effectiveness measurement and participant voice capture
+Museum & heritage sites
+Additional market research in progress 2025-26
+
 
 # Development Approach
-- Methodology: Agile sprints with iterative client feedback
-- Timeline to date: 6 months planning + 6 months initial development
-- Testing: Test-driven development with comprehensive coverage
-- Client Collaboration: Currently piloting with UK and Prague-based partner organizations
+Methodology: Agile sprints with iterative client feedback
+Timeline to date: 6 months planning + 6 months initial development
+Testing: Test-driven development with comprehensive coverage
+Client Collaboration: Currently piloting with UK and Prague-based partner organizations
+
 
 # Repository Contents
 This repository contains comprehensive product documentation including:
