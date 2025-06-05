@@ -1,7 +1,3 @@
-# obwob-product
-Real-time feedback collection platform - product documentation, technical architecture, and development strategy.
-
-
 # Overview
 Obwob transforms traditionally fleeting, difficult-to-capture feedback into valuable, structured data that supports impact reports, research and funding bids without the administrative overhead of traditional methods.
 
