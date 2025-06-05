@@ -1,3 +1,10 @@
+# Obwob
+**Real-time feedback collection that captures insights before they slip away**
+
+[![Status](https://img.shields.io/badge/status-active%20development-green)]()
+[![Tech Stack](https://img.shields.io/badge/stack-React%20%7C%20Django%20%7C%20PostgreSQL-blue)]()
+[![Testing](https://img.shields.io/badge/testing-RSpec%20%7C%20React%20Testing-brightgreen)]()
+
 # Overview
 Obwob transforms traditionally fleeting, difficult-to-capture feedback into valuable, structured data that supports impact reports, research and funding bids without the administrative overhead of traditional methods.
 
