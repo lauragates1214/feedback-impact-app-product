@@ -44,6 +44,7 @@ In Development (Django Migration):
 - Real-time response viewing for facilitators
 - Advanced analytics and export functionality
 - Multi-language support and voice/image submissions
+- Optional user account creation for persistent multi-event participation
 
 
 # Technical Architecture
