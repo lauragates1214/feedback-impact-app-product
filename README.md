@@ -129,4 +129,4 @@ For AI integration plans, see AI Integration Roadmap
 
 ## Legal Notice
 
-This project is being developed as part of Dr Laura Purcell-Gates's role at Bath Spa University. Intellectual property rights belong to Bath Spa University. This repository serves as a technical portfolio demonstrating product development capabilities and is shared with the university's permission for professional purposes.
+This project is being developed as part of Dr Laura Gates's role at Bath Spa University. Intellectual property rights belong to Bath Spa University. This repository serves as a technical portfolio demonstrating product development capabilities and is shared with the university's permission for professional purposes.
