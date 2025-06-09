@@ -126,10 +126,6 @@ Obwob emerged from Dr Purcell-Gates's Objects Without Borders research project, 
 - Export-ready formatting vs. platform lock-in
 - Contextual linking vs. isolated response collection
 
-### Key Positioning Statement
-
-*"I'm not aware of anything like this in this space – an incredibly lightweight way to capture feedback during events."* - Jason Milgram, Early Tester
-
 ## Product Development Strategy
 
 ### Development Phases
