@@ -11,7 +11,7 @@
 # Overview
 Obwob transforms traditionally fleeting, difficult-to-capture feedback into valuable, structured data that supports impact reports, research and funding bids without the administrative overhead of traditional methods.
 
-Built as a mobile-first Progressive Web App, Obwob enables facilitators to instantly connect with participants during events and gather their responses in real-time through participants' own mobile phones—with no downloads, logins, or technical barriers.
+Built as a mobile-first Progressive Web App, Obwob enables facilitators to instantly connect with participants during events and gather their responses in real-time through participants' own mobile phones, with no downloads, logins, or technical barriers.
 
 
 # The Problem We're Solving
@@ -32,7 +32,7 @@ Real-time Communication Architecture
 - Ably-powered live messaging system enabling instant question pushing and response collection across multiple participant devices simultaneously.
 
 Progressive Migration Strategy
-- Currently transitioning from Rails prototype to production Django backend while maintaining full functionality—demonstrating practical experience with complex system migrations.
+- Currently transitioning from Rails prototype to production Django backend while maintaining full functionality, demonstrating practical experience with complex system migrations.
 
 AI Integration Planning
 - Architected for intelligent features including response summarisation, sentiment analysis, and thematic clustering using RAG (Retrieval-Augmented Generation) and MCP (Model Context Protocol) approaches.
@@ -129,4 +129,4 @@ For AI integration plans, see AI Integration Roadmap
 
 ## Legal Notice
 
-This project is being developed as part of Dr Laura Gates's role at Bath Spa University. Intellectual property rights belong to Bath Spa University. This repository serves as a technical portfolio demonstrating product development capabilities and is shared with the university's permission for professional purposes.
+This project is being developed as part of Laura Gates's role at Bath Spa University (under her academic name Dr Laura Purcell-Gates). Intellectual property rights belong to Bath Spa University. This repository serves as a technical portfolio demonstrating product development capabilities and is shared with the university's permission for professional purposes.
