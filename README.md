@@ -1,5 +1,5 @@
 # Obwob
-**Real-time feedback collection that captures insights before they slip away**<br>
+**Real-time feedback collection that captures insights before they slip away.**<br>
 **Creator and Lead Developer: Laura Gates**<br>
 **Currently in development at Bath Spa University as part of ongoing research into inclusive feedback collection methods.**
 
