@@ -8,7 +8,7 @@
 [![Testing](https://img.shields.io/badge/testing-RSpec%20%7C%20React%20Testing-brightgreen)]()
 
 # Overview
-Obwob transforms traditionally fleeting, difficult-to-capture feedback into valuable, structured data that supports impact reports, research and funding bids without the administrative overhead of traditional methods.
+Feedback app Obwob transforms traditionally fleeting, difficult-to-capture feedback into valuable, structured data that supports impact reports, research and funding bids without the administrative overhead of traditional methods.
 
 Built as a mobile-first Progressive Web App, Obwob enables facilitators to instantly connect with participants during events and gather their responses in real-time through participants' own mobile phones, with no downloads, logins, or technical barriers.
 
