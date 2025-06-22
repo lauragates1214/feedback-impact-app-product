@@ -8,124 +8,100 @@
 [![Testing](https://img.shields.io/badge/testing-RSpec%20%7C%20React%20Testing-brightgreen)]()
 
 # Overview
-Feedback app Obwob transforms traditionally fleeting, difficult-to-capture feedback into valuable, structured data that supports impact reports, research and funding bids without the administrative overhead of traditional methods.
+This app transforms fleeting, hard-to-capture feedback into structured, actionable data that supports impact reporting, research, and funding applications — without the administrative overhead of traditional methods.
 
-Built as a mobile-first Progressive Web App, Obwob enables facilitators to instantly connect with participants during events and gather their responses in real-time through participants' own mobile phones, with no downloads, logins, or technical barriers.
+Designed as a mobile-first Progressive Web App, it enables facilitators to connect instantly with participants during live events. Participants respond via their own mobile devices — no downloads, logins, or technical friction required.
 
 
-# The Problem We're Solving
+# The Problem
 Traditional feedback collection fails in live environments:
-- Post-event forms get poor response rates
-- Paper surveys interrupt the flow of activities
-- Digital tools require downloads and setup that create friction
-- Valuable insights are lost in the moment they occur
+- Post-event forms yield poor response rates
+- Paper forms disrupt event flow
+- Download-heavy digital tools create barriers
+- Valuable insights get lost before they can be captured
 
-Obwob emerged from research with vulnerable populations (refugees, low-income communities) where smartphones were consistently the most accessible technology, despite various other barriers.
+Our research, especially with vulnerable groups (refugees, low-income communities), showed smartphones as the most accessible tech despite multiple barriers — informing the design of this frictionless solution.
 
 
 # Key Technical Achievements
-Sophisticated Resource Hierarchy Management
-- Custom-built recursive authentication system that dynamically validates nested resource relationships (Organizations → Events → Questions → Answers) using Template Method design pattern and metaprogramming.
-
-Real-time Communication Architecture
-- Ably-powered live messaging system enabling instant question pushing and response collection across multiple participant devices simultaneously.
-
-Progressive Migration Strategy
-- Currently transitioning from Rails prototype to production Django backend while maintaining full functionality, demonstrating practical experience with complex system migrations.
-
-AI Integration Planning
-- Architected for intelligent features including response summarisation, sentiment analysis, and thematic clustering using RAG (Retrieval-Augmented Generation) and MCP (Model Context Protocol) approaches.
-
-Frictionless User Experience
-- QR code-based access system that creates anonymous users with UUIDs, enabling immediate participation without downloads or account creation.
+**Resource Hierarchy Management:** Recursive, metaprogrammed authentication validating nested resources (Organizations → Events → Questions → Answers)
+**Real-time Messaging:** Powered by Ably for instantaneous question pushing and response collection across multiple devices
+**Progressive Migration:** Transitioning from Rails prototype to production-ready Django backend while maintaining full functionality
+**AI Integration Planning:** Architected for advanced features like response summarisation, sentiment analysis, and thematic clustering via Retrieval-Augmented Generation
+**Frictionless UX:** QR code access creates anonymous users with UUIDs — no account creation or downloads required
 
 
 # Current Development Status
-Working Demo Features:
-- Complete facilitator and participant event access via QR codes
+Working Demo:
+- Facilitator and participant event access via QR codes
 - Live question broadcasting and response submission
-- Asynchronous question answering capabilities
-- Welcome and confirmation user flows
-- Full backend API with comprehensive test coverage
+- Asynchronous answering
+- User flow for event welcome and confirmation
+- Fully tested backend API
 
-In Development (Django Migration):
-- Organization event dashboard and question bank management
-- Real-time response viewing for facilitators
-- Advanced analytics and export functionality
-- Multi-language support and voice/image submissions
-- Optional user account creation for persistent multi-event participation
+In Progress (Django Migration):
+- Organization event dashboards and question bank management
+- Real-time facilitator response viewing
+- Advanced analytics and export tools
+- Multi-language, voice, and image submission support
+- Optional persistent user accounts
 
 
 # Technical Architecture
 Backend
-- Current: Rails 8.0 with PostgreSQL
-- Production: Django with PostgreSQL (migration Q2 2025)
-- Real-time: Ably channels for live messaging
-- Authentication: UUID-based anonymous users with hierarchical resource validation
-- Testing: Comprehensive RSpec test suite with unit and integration coverage
+- Prototype: Rails 8.0 with PostgreSQL
+- Production: Django + PostgreSQL (Q2 2025)
+- Real-time: Ably channels
+- Authentication: UUID anonymous users with hierarchical validation
+- Testing: RSpec unit and integration coverage
 
 Frontend
-- Framework: React with Progressive Web App capabilities
-- Styling: SCSS with component-based architecture
-- Testing: React Testing Library (in development)
-- Real-time: Ably client integration
+- React PWA
+- SCSS styling
+- React Testing Library (in development)
+- Ably client integration
 
-Database Design
-Sophisticated relational structure supporting:
-- Multi-tenant organizations with role-based access
-- Flexible event and question management
-- Trackable response collection with contextual linking
-- Soft deletion and audit trails throughout
+Database 
+- Multi-tenant support with role-based access
+- Event and question management
+- Trackable, contextual response collection
+- Soft deletion and audit trails 
 
 Deployment
-- Platform: Heroku
-- Monitoring: Application performance tracking
-- Scaling: Designed for horizontal scaling with database optimisation
+- Heroku
+- Performance monitoring
+- Horizontal scaling ready
 
 
 # AI Integration Roadmap
-MVP-Ready Features
-- Smart Response Summarisation: LLM-generated summaries of participant feedback
-- Sentiment Analysis: Automated emotional tone detection across responses
-- Thematic Clustering: Automatic grouping of similar feedback using embeddings
-- Question Enhancement: AI-assisted question improvement suggestions
-
-Future Development
-Facilitator Copilot: Real-time insights and suggestions during events
-Adaptive Follow-ups: Context-aware question recommendations
-Voice Transcription: Whisper integration for audio responses
+**MVP:** Response summarisation, sentiment analysis, thematic clustering, AI-assisted question enhancement
+**Future:** Facilitator Copilot (real-time insights), adaptive follow-ups, Whisper-based voice transcription
 
 
 # Target Markets
-Higher Education: Research impact evidence collection and academic event feedback
-Healthcare: Training evaluation and professional development assessment
-Arts Organizations: Community engagement documentation for funding applications
-Community Organizations: Program effectiveness measurement and participant voice capture
-Museum & heritage sites
+Higher Education (impact evidence, event feedback)
+Healthcare (training and assessment)
+Arts Organizations (community engagement, funding)
+Community Groups (program evaluation, participant voice)
+Museums and Heritage Sites
 Additional market research in progress 2025-26
 
 
 # Development Approach
-Methodology: Agile sprints with iterative client feedback
-Timeline to date: 6 months planning + 6 months initial development
-Testing: Test-driven development with comprehensive coverage
-Client Collaboration: Currently piloting with UK and Prague-based partner organizations
+Agile sprints with iterative feedback
+6 months planning + 6 months development
+Test-driven development
+Pilot partnerships in the UK and Czech Republic; in-development partnerships in Jordan, US, Zimbabwe and Namibia.
 
 
 # Repository Contents
-This repository contains comprehensive product documentation including:
-- Technical Architecture: Detailed system design and implementation patterns
-- User Research: Findings from work with vulnerable populations
-- Product Strategy: Market positioning and competitive analysis
-- Brand Strategy: Complete visual identity and messaging framework
-- AI Integration Plans: Detailed roadmap for intelligent features
-
-For technical implementation details, see Technical Architecture
-
-For product strategy and market research, see Product Strategy
-
-For AI integration plans, see AI Integration Roadmap
+Technical architecture and design patterns
+User research findings
+Product and brand strategy
+AI roadmap
 
 ## Legal Notice
+Developed as part of Dr Laura Purcell-Gates’s role at Bath Spa University. IP belongs to Bath Spa University. Shared here with permission as a professional development portfolio.
 
-This project is being developed as part of Laura Gates's role at Bath Spa University (under her academic name Dr Laura Purcell-Gates). Intellectual property rights belong to Bath Spa University. This repository serves as a technical portfolio demonstrating product development capabilities and is shared with the university's permission for professional purposes.
+GitHub username: **Laura Gates** (personal/professional name)  
+Academic name: **Dr Laura Purcell-Gates**
