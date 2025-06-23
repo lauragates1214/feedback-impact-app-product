@@ -10,7 +10,7 @@
 # Overview
 This app transforms fleeting, hard-to-capture feedback into structured, actionable data that supports impact reporting, research, and funding applications — without the administrative overhead of traditional methods.
 
-Designed as a mobile-first Progressive Web App, it enables facilitators to connect instantly with participants during live events. Participants respond via their own mobile devices — no downloads, logins, or technical friction required.
+Designed as a mobile-first progressive web app, it enables facilitators to connect instantly with participants during live events. Participants respond via their own mobile devices, with no downloads, logins or technical friction required.
 
 
 # The Problem
@@ -20,7 +20,7 @@ Traditional feedback collection fails in live environments:
 - Download-heavy digital tools create barriers
 - Valuable insights get lost before they can be captured
 
-Our research, especially with vulnerable groups (refugees, low-income communities), showed smartphones as the most accessible tech despite multiple barriers — informing the design of this frictionless solution.
+Our research, especially with vulnerable groups (refugees, low-income communities), showed smartphones as the most accessible tech despite multiple barriers, informing the design of this frictionless solution.
 
 
 # Key Technical Achievements
@@ -28,7 +28,7 @@ Our research, especially with vulnerable groups (refugees, low-income communitie
 **Real-time Messaging:** Powered by Ably for instantaneous question pushing and response collection across multiple devices
 **Progressive Migration:** Transitioning from Rails prototype to production-ready Django backend while maintaining full functionality
 **AI Integration Planning:** Architected for advanced features like response summarisation, sentiment analysis, and thematic clustering via Retrieval-Augmented Generation
-**Frictionless UX:** QR code access creates anonymous users with UUIDs — no account creation or downloads required
+**Frictionless UX:** QR code access creates anonymous users with UUIDs; no account creation or downloads required
 
 
 # Current Development Status
@@ -75,7 +75,7 @@ Deployment
 
 # AI Integration Roadmap
 **MVP:** Response summarisation, sentiment analysis, thematic clustering, AI-assisted question enhancement
-**Future:** Facilitator Copilot (real-time insights), adaptive follow-ups, Whisper-based voice transcription
+**Future:** Facilitator Copilot (real-time insights), adaptive follow-ups, voice transcription
 
 
 # Target Markets
