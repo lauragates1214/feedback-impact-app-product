@@ -24,11 +24,11 @@ Our research, especially with vulnerable groups (refugees, low-income communitie
 
 
 # Key Technical Features
-**Resource Hierarchy Management:** Recursive, metaprogrammed authentication validating nested resources (Organizations → Events → Questions → Answers)
-**Real-time Messaging:** Powered by Ably for instantaneous question pushing and response collection across multiple devices
-**Progressive Migration:** Transitioning from Rails prototype to production-ready Django backend while maintaining full functionality
-**AI Integration Planning:** Architected for advanced features like response summarisation, sentiment analysis, and thematic clustering via Retrieval-Augmented Generation
-**Frictionless UX:** QR code access creates anonymous users with UUIDs; no account creation or downloads required
+- **Resource Hierarchy Management:** Recursive, metaprogrammed authentication validating nested resources (Organizations → Events → Questions → Answers)
+- **Real-time Messaging:** Powered by Ably for instantaneous question pushing and response collection across multiple devices
+- **Progressive Migration:** Transitioning from Rails prototype to production-ready Django backend while maintaining full functionality
+- **AI Integration Planning:** Architected for advanced features like response summarisation, sentiment analysis, and thematic clustering via Retrieval-Augmented Generation
+- **Frictionless UX:** QR code access creates anonymous users with UUIDs; no account creation or downloads required
 
 
 # Current Development Status
@@ -74,31 +74,31 @@ Deployment
 
 
 # AI Integration Roadmap
-**MVP:** Response summarisation, sentiment analysis, thematic clustering, AI-assisted question enhancement
-**Future:** Facilitator Copilot (real-time insights), adaptive follow-ups, voice transcription
+- **MVP:** Response summarisation, sentiment analysis, thematic clustering, AI-assisted question enhancement
+- **Future:** Facilitator Copilot (real-time insights), adaptive follow-ups, voice transcription
 
 
 # Target Markets
-Higher Education (impact evidence, event feedback)
-Healthcare (training and assessment)
-Arts Organizations (community engagement, funding)
-Community Groups (program evaluation, participant voice)
-Museums and Heritage Sites
-Additional market research in progress 2025-26
+- Higher Education (impact evidence, event feedback)
+- Healthcare (training and assessment)
+- Arts Organizations (community engagement, funding)
+- Community Groups (program evaluation, participant voice)
+- Museums and Heritage Sites
+- Additional market research in progress 2025-26
 
 
 # Development Approach
-Agile sprints with iterative feedback
-6 months planning + 6 months development
-Test-driven development
-Pilot partnerships in the UK and Czech Republic; in-development partnerships in Jordan, US, Zimbabwe and Namibia.
+- Agile sprints with iterative client feedback
+- 6 months planning + 6 months development
+- Test-driven development
+- Pilot partnerships in the UK and Czech Republic; in-development partnerships in Jordan, US, Zimbabwe and Namibia.
 
 
 # Repository Contents
-Technical architecture and design patterns
-User research findings
-Product and brand strategy
-AI roadmap
+- Technical architecture and design patterns
+- User research findings
+- Product and brand strategy
+- AI roadmap
 
 ## Legal Notice
 Developed as part of Dr Laura Purcell-Gates’s role at Bath Spa University. IP belongs to Bath Spa University. Shared here with permission as a professional development portfolio.
