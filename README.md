@@ -23,7 +23,7 @@ Traditional feedback collection fails in live environments:
 Our research, especially with vulnerable groups (refugees, low-income communities), showed smartphones as the most accessible tech despite multiple barriers, informing the design of this frictionless solution.
 
 
-# Key Technical Achievements
+# Key Technical Features
 **Resource Hierarchy Management:** Recursive, metaprogrammed authentication validating nested resources (Organizations → Events → Questions → Answers)
 **Real-time Messaging:** Powered by Ably for instantaneous question pushing and response collection across multiple devices
 **Progressive Migration:** Transitioning from Rails prototype to production-ready Django backend while maintaining full functionality
