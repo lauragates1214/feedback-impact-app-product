@@ -8,7 +8,7 @@
 [![Testing](https://img.shields.io/badge/testing-RSpec%20%7C%20React%20Testing-brightgreen)]()
 
 # Overview
-This app transforms fleeting, hard-to-capture feedback into structured, actionable data that supports impact reporting, research, and funding applications — without the administrative overhead of traditional methods.
+This app transforms fleeting, hard-to-capture feedback into structured, actionable data that supports impact reporting, research and funding applications, without the administrative overhead of traditional methods.
 
 Designed as a mobile-first progressive web app, it enables facilitators to connect instantly with participants during live events. Participants respond via their own mobile devices, with no downloads, logins or technical friction required.
 
