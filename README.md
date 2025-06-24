@@ -101,7 +101,5 @@ Deployment
 - AI roadmap
 
 ## Legal Notice
-Developed as part of Dr Laura Purcell-Gates’s role at Bath Spa University. IP belongs to Bath Spa University. Shared here with permission as a professional development portfolio.
+Developed as part of Dr Laura Gates’s role at Bath Spa University (previous academic name: Dr Laura Purcell-Gates). IP belongs to Bath Spa University. Shared here with permission as a professional development portfolio.
 
-GitHub username: **Laura Gates** (personal/professional name)  
-Academic name: **Dr Laura Purcell-Gates**
