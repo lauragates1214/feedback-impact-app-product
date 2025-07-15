@@ -98,7 +98,7 @@ Deployment
 - Technical architecture and design patterns
 - User research findings
 - Product and brand strategy
-- [![AI roadmap]([![Testing](https://img.shields.io/badge/testing-RSpec%20%7C%20React%20Testing-brightgreen)]()]()
+- AI roadmap
 
 ## Legal Notice
 Developed as part of Dr Laura Gates’s role at Bath Spa University (previous name: Laura Purcell-Gates). IP belongs to Bath Spa University. Shared here with permission as a professional development portfolio.
