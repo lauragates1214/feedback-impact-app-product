@@ -95,9 +95,9 @@ Deployment
 
 
 # Repository Contents
-- [Technical architecture and design patterns](https://github.com/lauragates1214/feedback-impact-app-product/blob/main/docs/technical-architecture.md)
-- [Product and brand strategy](https://github.com/lauragates1214/feedback-impact-app-product/blob/main/docs/product-strategy.md)
-- [AI roadmap](https://github.com/lauragates1214/feedback-impact-app-product/blob/main/docs/ai-integrations.md)
+- [Technical architecture](https://github.com/lauragates1214/feedback-impact-app-product/blob/main/docs/technical-architecture.md)
+- [Product strategy and user research](https://github.com/lauragates1214/feedback-impact-app-product/blob/main/docs/product-strategy.md)
+- [AI integration roadmap](https://github.com/lauragates1214/feedback-impact-app-product/blob/main/docs/ai-integrations.md)
 
 ## Legal Notice
 Developed as part of Dr Laura Gates’s role at Bath Spa University (previous name: Laura Purcell-Gates). IP belongs to Bath Spa University. Shared here with permission as a professional development portfolio.
