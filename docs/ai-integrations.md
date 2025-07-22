@@ -103,6 +103,12 @@ Obwob's AI integration strategy focuses on transforming raw participant response
 - **Value**: Accessibility improvement, richer data collection
 - **Technical**: Real-time transcription with speaker identification and sentiment analysis
 
+**11. AI Voice Agents for Structured Interviews at Scale**
+- **Function**: Automated voice-based interviews with participants using conversational AI
+- **Implementation**: Integration of Whisper transcription with conversational LLM agents
+- **Value**: Large-scale qualitative data collection with vulnerable populations while maintaining accessibility
+- **Technical**: Culturally sensitive conversation flows with human oversight, real-time transcription and analysis
+
 ## Technical Implementation Details
 
 ### Data Processing Pipeline
