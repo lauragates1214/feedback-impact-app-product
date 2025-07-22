@@ -74,7 +74,7 @@ Deployment
 
 
 # AI Integration Roadmap
-- **MVP:** Response summarisation, sentiment analysis, thematic clustering, AI-assisted question enhancement
+- **MVP:** Response summarisation, sentiment analysis, thematic clustering, AI-assisted question enhancement, AI voice agents conducting structured interviews at scale
 - **Future:** Facilitator Copilot (real-time insights), adaptive follow-ups, voice transcription
 
 
