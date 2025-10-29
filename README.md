@@ -51,8 +51,8 @@ The platform emerged from the Objects Without Borders research project, which re
 - Strong preference for anonymous participation in sensitive contexts
 
 **Pilot Results:**  
-90-100% participation rates vs. 5-15% with traditional methods
-Increased feedback participation rates by 150%
+- 90-100% participation rates vs. 5-15% with traditional methods
+- Increased feedback participation rates by 150%
 
 *"A game-changer"* - UK Arts Organisation
 
