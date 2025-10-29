@@ -77,7 +77,7 @@ The platform emerged from the Objects Without Borders research project, which re
 
 ---
 
-## What Makes Us Different
+## What Makes It Different
 
 **Purpose-built for real-world environments**  
 Designed for dynamic, messy settings—not controlled presentations. Mobile-first approach, not laptop/desktop assumptions.
