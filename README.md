@@ -1,104 +1,122 @@
-**Real-time feedback collection that captures insights before they slip away.**<br>
-**Creator and Lead Developer: Laura Gates**<br>
-**Currently in development at Bath Spa University as part of ongoing research into inclusive feedback collection, impact and engagement methods.**
+# Real-Time Feedback Platform
 
+> A platform for capturing insights before they slip away.
 
-[![Status](https://img.shields.io/badge/status-active%20development-green)]()
-[![Tech Stack](https://img.shields.io/badge/stack-React%20%7C%20Django%20%7C%20PostgreSQL-blue)]()
-[![Testing](https://img.shields.io/badge/testing-RSpec%20%7C%20React%20Testing-brightgreen)]()
+Enables organisations to run structured feedback sessions where Leads ask questions and Voices respond, all optimised for smartphones with no downloads or accounts required.
 
-# Overview
-This app transforms fleeting, hard-to-capture feedback into structured data that supports impact reporting, research and funding applications, without the administrative overhead of traditional methods.
+---
 
-Designed as a mobile-first progressive web app, it enables facilitators to connect instantly with participants during live events. Participants respond via their own mobile devices, with no downloads, logins or technical friction required.
+## The Problem
 
+**Traditional feedback collection is broken:**
 
-# The Problem
-Traditional feedback collection fails in live environments:
-- Post-event forms yield poor response rates
-- Paper forms disrupt event flow
-- Download-heavy digital tools create barriers
-- Valuable insights get lost before they can be captured
+Published research shows completion rates of just 44% in educational settings, 10-20% for events and conferences, and 5-10% for community organisations. Real-world experience is often worse.
 
-Our research, especially with vulnerable groups (refugees, low-income communities), showed smartphones as the most accessible tech despite multiple barriers, informing the design of this frictionless solution.
+This means **organisations are making critical decisions based on feedback from just 5-20% of participants**, and even that feedback is diluted by time and distance from the actual experience.
 
+**The stakes:**
+- In organisations that rely on funding, feedback means the difference between securing grants and losing them
+- In corporate settings, it shapes strategic decisions, measures employee engagement, and validates training investments
+- In research, it determines which projects continue and demonstrates the impact needed for institutional funding
+- For all sectors, it's the difference between understanding impact and guessing
 
-# Key Technical Features
-- **Resource Hierarchy Management:** Recursive, metaprogrammed authentication validating nested resources (Organizations → Events → Questions → Answers)
-- **Real-time Messaging:** Powered by Ably for instantaneous question pushing and response collection across multiple devices
-- **Progressive Migration:** Transitioning from Rails prototype to production-ready Django backend while maintaining full functionality
-- **AI Integration Planning:** Architected for advanced features like response summarisation, sentiment analysis, and thematic clustering via Retrieval-Augmented Generation
-- **Frictionless UX:** QR code access creates anonymous users with UUIDs; no account creation or downloads required
+**What's being lost:**
+- Spontaneous insights and emotional responses experienced during the event
+- In-the-moment reactions and creative ideas
+- Transformative realisations that fade within hours
+- The voices of 80-95% of participants
 
+Research shows that **77% of users prefer organisations that ask for their feedback**, but traditional methods make it difficult to respond when insights are most valuable.
 
-# Current Development Status
-Working Demo:
-- Facilitator and participant event access via QR codes
-- Live question broadcasting and response submission
-- Asynchronous answering
-- User flow for event welcome and confirmation
-- Fully tested backend API
+---
 
-In Progress (Django Migration):
-- Organization event dashboards and question bank management
-- Real-time facilitator response viewing
-- Advanced analytics and export tools
-- Multi-language, voice, and image submission support
-- Optional persistent user accounts
+## The Solution
 
+This platform transforms fleeting insights into structured data through:
 
-# Technical Architecture
-Backend
-- Prototype: Rails 8.0 with PostgreSQL
-- Production: Django + PostgreSQL (Q2 2025)
-- Real-time: Ably channels
-- Authentication: UUID anonymous users with hierarchical validation
-- Testing: RSpec unit and integration coverage
+- **Frictionless access**: QR code entry, no downloads or logins required
+- **Real-time collection**: Capture insights while they're fresh
+- **Mobile-first design**: Works on any smartphone
+- **Research-backed approach**: Built from work with vulnerable populations including refugees and low-income communities
 
-Frontend
-- React PWA
-- SCSS styling
-- React Testing Library (in development)
-- Ably client integration
+### Why It Works
 
-Database 
-- Multi-tenant support with role-based access
-- Event and question management
-- Trackable, contextual response collection
-- Soft deletion and audit trails 
+**Research Foundation:**  
+The platform emerged from the Objects Without Borders research project, which revealed a critical insight: despite various technological barriers, smartphones were consistently the most accessible technology across all demographics studied.
 
-Deployment
-- Heroku
-- Performance monitoring
-- Horizontal scaling ready
+**Key Findings:**
+- High smartphone ownership across all demographics
+- Immediate willingness to scan QR codes vs. resistance to app downloads
+- Higher quality responses when collected in real-time vs. retrospectively
+- Strong preference for anonymous participation in sensitive contexts
 
+**Pilot Results:**  
+90-100% participation rates vs. 5-15% with traditional methods
+Increased feedback participation rates by 150%
 
-# AI Integration Roadmap
-- **MVP:** Response summarisation, sentiment analysis, thematic clustering, AI-assisted question enhancement, AI voice agents conducting structured interviews at scale
-- **Future:** Facilitator Copilot (real-time insights), adaptive follow-ups, voice transcription
+*"A game-changer"* - UK Arts Organisation
 
+---
 
-# Target Markets
-- Higher Education (impact evidence, event feedback)
-- Healthcare (training and assessment)
-- Arts Organizations (community engagement, funding)
-- Community Groups (program evaluation, participant voice)
-- Museums and Heritage Sites
-- Additional market research in progress 2025-26
+## Who It's For
 
+**Higher Education & Research**: REF impact evidence, grant applications, public engagement measurement  
+*Pain points solved: Manual data collection, poor response rates, administrative overhead*
 
-# Development Approach
-- Agile sprints with iterative client feedback
-- 6 months planning + 6 months development
-- Test-driven development
-- Pilot partnerships in the UK and Czech Republic; in-development partnerships in Jordan, US, Zimbabwe and Namibia.
+**Corporate Training & Development**: Employee feedback, training effectiveness, event engagement  
+*Pain points solved: Administrative burden, low engagement, unusable data*
 
+**Healthcare & Professional Development**: Training effectiveness, reflection documentation, evidence-based practice  
+*Pain points solved: Limited time for feedback collection, need for structured evidence*
 
-# Repository Contents
-- [Technical architecture](https://github.com/lauragates1214/feedback-impact-app-product/blob/main/docs/technical-architecture.md)
-- [Product strategy and user research](https://github.com/lauragates1214/feedback-impact-app-product/blob/main/docs/product-strategy.md)
-- [AI integration roadmap](https://github.com/lauragates1214/feedback-impact-app-product/blob/main/docs/ai-integrations.md)
+**Arts & Cultural Organisations**: Funding applications, audience engagement, visitor experience  
+*Pain points solved: Resource constraints, difficulty capturing authentic engagement*
 
-## Legal Notice
-Developed as part of Dr Laura Gates’s role at Bath Spa University (previous name: Laura Purcell-Gates). IP belongs to Bath Spa University. Shared here with permission as a professional development portfolio.
+**Community & Third Sector**: Programme effectiveness, participant voice capture, impact reporting  
+*Pain points solved: Limited technical resources, need for inclusive methods*
 
+---
+
+## What Makes Us Different
+
+**Purpose-built for real-world environments**  
+Designed for dynamic, messy settings—not controlled presentations. Mobile-first approach, not laptop/desktop assumptions.
+
+**Research-backed inclusive design**  
+Built from work with vulnerable populations. Anonymous participation options. Accessibility-first architecture, not retrofitted solutions.
+
+**Export-ready data**  
+Responses automatically formatted for analysis and reporting. No platform lock-in. Participant access to own responses for continued reflection.
+
+**Lightweight and focused**  
+Single focus on feedback collection vs. feature-bloated platforms. Fast deployment, built-in analytics.
+
+---
+
+## Status
+
+🚧 **In Development** 
+
+Currently being developed as part of the ARC Accelerate programme, building on research that produced a 4* REF Impact Case Study.
+
+**Development Timeline**:
+- **Summer 2025 - January 2026**: MVP development 
+- **2026**: Strategic testing with Bath Spa University and sector partners
+
+---
+
+## About
+
+**Creator and Lead Developer**: Dr Laura Gates 
+
+Combining research excellence in inclusive engagement methods with full-stack development expertise. Background in theatre and puppetry informs understanding of how objects, narrative and world-building can open new ways of connecting.
+
+Built from Objects Without Borders research project, which revealed smartphones as the most accessible technology across all demographics despite various barriers.
+
+---
+
+## Contact
+
+For enquiries: l.gates@bathspa.ac.uk
+
+---
