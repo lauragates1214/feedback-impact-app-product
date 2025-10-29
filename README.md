@@ -2,7 +2,7 @@
 
 > A platform for capturing insights before they slip away.
 
-Enables organisations to run structured feedback sessions where Leads ask questions and Voices respond, all optimised for smartphones with no downloads or accounts required.
+Enables organisations to run structured feedback sessions in which Leads ask questions and Voices respond, all optimised for smartphones with no downloads or accounts required.
 
 ---
 
