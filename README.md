@@ -1,4 +1,4 @@
-# Real-Time Feedback Platform
+# Obwob: Real-Time Feedback Platform
 
 > A platform for capturing insights before they slip away.
 
